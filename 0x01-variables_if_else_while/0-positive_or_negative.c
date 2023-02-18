@@ -6,19 +6,19 @@
 */
 int main(void)
 {
-	int number = 98;
+	int n = 98;
 
-	if (number < 0)
+	if (n < 0)
 	{
-		printf("%d is negative", number);
+		printf("%d is negative", n);
 	}
-	else if (number > 0)
+	else if (n > 0)
 	{
-		printf("%d is positive", number);
+		printf("%d is positive", n);
 	}
 	else
 	{
-		printf("%d is zero", number);
+		printf("%d is zero", n);
 	}
 	return (0);
 }
