@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-	int number = -45678;
+	int number = 98;
 
 	if (number < 0)
 	{
