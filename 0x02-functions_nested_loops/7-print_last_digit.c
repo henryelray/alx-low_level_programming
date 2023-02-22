@@ -2,7 +2,7 @@
 /**
  * print_last_digit - program that prints _putchar, followed by a new line.
  * @k: absolute value
- * Return: Always (0 == Success)
+ * Return: integer
 */
 int print_last_digit(int k)
 {
@@ -10,6 +10,6 @@ int print_last_digit(int k)
 
 	if (ld < 0)
 		ld = -ld;
-		_putchar(ld + '0');
+	_putchar(ld + '0');
 	return (ld);
 }
