@@ -6,9 +6,13 @@
 */
 int main(void)
 {
-	for (int i = 1; i <= 10 ; i++)
+	int i;
+
+	for (i = 1; i <= 10 ; i++)
 	{
-		for (int j = 'a'; j <= 'z'; j++)
+		int j;
+
+		for (j = 'a'; j <= 'z'; j++)
 		{
 			_putchar(j);
 		}
