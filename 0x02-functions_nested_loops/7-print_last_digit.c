@@ -3,11 +3,9 @@
  * print_last_digit - program that prints _putchar, followed by a new line.
  * Return: Always (0 == Success)
 */
-int print_last_digit(int n)
+int print_last_digit(int number)
 {
 	int last_digit;
-
-	int number = 98;
 
 	last_digit = number % 10;
 
