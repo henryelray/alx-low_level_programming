@@ -7,11 +7,11 @@
 
 int main(void)
 {
+	int i = 1;
+
 	char word[8] = "_putchar";
 
 	_putchar('_');
-
-	int i = 1;
 
 	while (i < 8)
 	{
