@@ -17,7 +17,7 @@ int main(void)
 			prime_num /= 2;
 			continue;
 		}
-		for ( div = 3; div < (prime_num / 2); div += 2)
+		for (div = 3; div < (prime_num / 2); div += 2)
 		{
 			if ((prime_num % div) == 0)
 				prime_num /= div;
@@ -25,4 +25,4 @@ int main(void)
 	}
 	printf("%ld\n", prime_num);
 	return (0);
-}	
+}
